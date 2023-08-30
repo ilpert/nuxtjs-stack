@@ -30,12 +30,12 @@ export default defineNuxtConfig({
       ],
     },
   },
-    nitro: {
-      prerender: {
-        routes: ["/blog"],
-        ignore: ["/spa"],
-      },
+  nitro: {
+    prerender: {
+      routes: ["/blog"],
+      ignore: ["/spa"],
     },
+  },
   //https://nuxt.com/docs/guide/concepts/rendering
   // routeRules: {
   //   "/": { prerender: false },
